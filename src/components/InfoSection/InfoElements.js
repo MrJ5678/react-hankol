@@ -2,14 +2,14 @@
  * @Author: hhhhhq
  * @Date: 2021-01-31 11:44:05
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-01-31 15:52:11
+ * @LastEditTime: 2021-02-03 08:56:41
  * @Description: file content
  */
 import styled from "styled-components"
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background-color: ${({ ligntBg }) => (ligntBg ? "#f9f9f9" : "#010606")};
+  background-color: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -19,7 +19,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100vh;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -30,7 +30,7 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
   display: grid;
-  grid-template-columns: minmax(auto, 1fr);
+  grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
@@ -51,6 +51,11 @@ export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
+
+  @media screen and (max-width: 768px) {
+    position: relative;
+    top: -20%;
+  }
 `
 
 export const TextWrapper = styled.div`
@@ -103,4 +108,8 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `

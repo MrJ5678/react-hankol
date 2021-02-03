@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 16:24:56
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-01-31 17:06:39
+ * @LastEditTime: 2021-02-02 21:59:06
  * @Description: file content
  */
 import { Link as LinkS } from "react-scroll"
@@ -51,11 +51,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(7, 70px);
+  grid-template-rows: repeat(6, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(7, 60px);
+    grid-template-rows: repeat(6, 60px);
   }
 `
 

@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 22:02:10
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-01-30 23:31:30
+ * @LastEditTime: 2021-02-02 22:19:34
  * @Description: file content
  */
 import React, { useState } from "react"
@@ -37,7 +37,7 @@ const HeroSection = () => {
         <HeroP>专注酣客, 品牌直供</HeroP>
         <HeroBtnWrapper>
           <Button
-            to="about"
+            to="jingdian"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
