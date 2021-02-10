@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-02-06 15:35:48
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-10 09:22:55
+ * @LastEditTime: 2021-02-10 11:31:09
  * @Description: file content
  */
 import styled from "styled-components"
@@ -45,17 +45,28 @@ export const ProductionImage = styled.img`
 
 export const ProductionInfoWrapper = styled.div`
   display: flex;
+  width: 100%;
   justify-content: center;
 `
 
-export const ProductionInfo = styled.div``
+export const ProductionInfo = styled.div`
+  width: 100%;
+`
 
 export const ProductionH1 = styled.h1`
   color: #784734;
+  text-align: center;
 
   @media screen and (max-width: 768px) {
     font-size: 1.5rem;
   }
 `
 
-export const ProductionDescWrapper = styled.div``
+export const ProductionDescWrapper = styled.div`
+  margin-top: 2rem;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 1rem;
+  }
+`
