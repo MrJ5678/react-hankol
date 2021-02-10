@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 16:24:56
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-02 21:59:06
+ * @LastEditTime: 2021-02-09 18:13:33
  * @Description: file content
  */
 import { Link as LinkS } from "react-scroll"
@@ -12,7 +12,7 @@ import { FaTimes } from "react-icons/fa"
 
 export const SidebarContainer = styled.aside`
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   width: 100%;
   height: 100%;
   background-color: #0d0d0d;
@@ -51,11 +51,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(7, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+    grid-template-rows: repeat(7, 60px);
   }
 `
 

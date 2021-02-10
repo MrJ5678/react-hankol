@@ -2,11 +2,11 @@
  * @Author: hhhhhq
  * @Date: 2021-01-31 11:43:43
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-03 09:14:42
+ * @LastEditTime: 2021-02-07 11:29:05
  * @Description: file content
  */
 import React from "react"
-import { Button } from "../ButtonElements"
+import { ButtonR } from "../ButtonElements"
 import {
   BtnWrap,
   Column1,
@@ -49,19 +49,14 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <SubTitle darkText={darkText}>{description}</SubTitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth="true"
-                    duration={500}
-                    spy="true"
-                    exact="true"
-                    offset={-80}
+                  <ButtonR
+                    to={`/production/${id}`}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ButtonR>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

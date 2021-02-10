@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-29 15:07:15
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-01-31 11:42:26
+ * @LastEditTime: 2021-02-09 18:05:04
  * @Description: file content
  */
 import styled from "styled-components"
@@ -10,7 +10,7 @@ import { Link as LinkR } from "react-router-dom"
 import { Link as LinkS } from "react-scroll"
 
 export const Nav = styled.nav`
-  background-color: ${({ navBackgroundColor }) => navBackgroundColor};
+  background-color: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -19,10 +19,11 @@ export const Nav = styled.nav`
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
 
   @media screen and (max-width: 960px) {
-    transition: 0.8s all ease;
+    transition: ${({ transitionStatus }) =>
+      transitionStatus ? "0.8s all ease" : "none"};
   }
 `
 
@@ -88,6 +89,7 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  box-sizing: border-box;
 
   &.active {
     border-bottom: 3px solid #784737;

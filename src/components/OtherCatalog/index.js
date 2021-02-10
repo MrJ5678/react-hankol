@@ -2,13 +2,13 @@
  * @Author: hhhhhq
  * @Date: 2021-02-03 09:21:27
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-03 10:56:32
+ * @LastEditTime: 2021-02-05 17:14:16
  * @Description: file content
  */
 import React from "react"
-import Icon1 from "../../images/hankejingdianzuhe.png"
-import Icon2 from "../../images/biaozhunban.png"
-import Icon3 from "../../images/biaozhunban.png"
+import { FaPhoneAlt } from "react-icons/fa"
+import { FaWeixin } from "react-icons/fa"
+import { ImLocation } from "react-icons/im"
 import {
   OtherCatalogCard,
   OtherCatalogContainer,
@@ -21,25 +21,29 @@ import {
 
 const OtherCatalog = () => {
   return (
-    <OtherCatalogContainer id="otherCatalog">
-      <OtherCatalogH1>其它</OtherCatalogH1>
+    <OtherCatalogContainer id="contact">
+      <OtherCatalogH1>联系我们</OtherCatalogH1>
       <OtherCatalogWrapper>
         <OtherCatalogCard>
-          <OtherCatalogIcon src={Icon1} />
-          <OtherCatalogH2>中国红</OtherCatalogH2>
-          <OtherCatalogP>中国红中国红中国红中国红中国红</OtherCatalogP>
+          <OtherCatalogIcon>
+            <FaPhoneAlt size="2rem" />
+          </OtherCatalogIcon>
+          <OtherCatalogH2>电话</OtherCatalogH2>
+          <OtherCatalogP>131-3675-8989</OtherCatalogP>
         </OtherCatalogCard>
         <OtherCatalogCard>
-          <OtherCatalogIcon src={Icon2} />
-          <OtherCatalogH2>艺术半月坛</OtherCatalogH2>
-          <OtherCatalogP>
-            艺术半月坛艺术半月坛艺术半月坛艺术半月坛
-          </OtherCatalogP>
+          <OtherCatalogIcon>
+            <FaWeixin size="2rem" />
+          </OtherCatalogIcon>
+          <OtherCatalogH2>微信</OtherCatalogH2>
+          <OtherCatalogP>13136758989</OtherCatalogP>
         </OtherCatalogCard>
         <OtherCatalogCard>
-          <OtherCatalogIcon src={Icon3} />
-          <OtherCatalogH2>留香</OtherCatalogH2>
-          <OtherCatalogP>留香留香留香留香留香留香留香留香</OtherCatalogP>
+          <OtherCatalogIcon>
+            <ImLocation size="2rem" />
+          </OtherCatalogIcon>
+          <OtherCatalogH2>地址</OtherCatalogH2>
+          <OtherCatalogP>哈药路270号</OtherCatalogP>
         </OtherCatalogCard>
       </OtherCatalogWrapper>
     </OtherCatalogContainer>
