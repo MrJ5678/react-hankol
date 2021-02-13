@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-29 15:10:13
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-08 16:11:37
+ * @LastEditTime: 2021-02-13 16:19:13
  * @Description: file content
  */
 import React from "react"
@@ -23,7 +23,7 @@ const Navbar = ({ scrollNav, transitionStatus, toggle, toggleIcon }) => {
   const toggleHome = () => {
     if (window.location.pathname.includes("production")) {
       console.log("detail page")
-      window.location.replace("/")
+      window.location.replace("/react-hankol")
       return false
     }
     scroll.scrollToTop()
@@ -34,7 +34,7 @@ const Navbar = ({ scrollNav, transitionStatus, toggle, toggleIcon }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav} transitionStatus={transitionStatus}>
           <NavbarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
+            <NavLogo to="/react-hankol" onClick={toggleHome}>
               酣客
             </NavLogo>
             <MobileIcon onClick={toggleIcon}>

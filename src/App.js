@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-28 22:34:26
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-09 18:13:07
+ * @LastEditTime: 2021-02-13 16:25:24
  * @Description: file content
  */
 import React, { useState, useEffect } from "react"
@@ -20,7 +20,7 @@ function App() {
   const toggle = anchor => {
     if (window.location.pathname.includes("production")) {
       // console.log("detail page")
-      window.location.replace(`/#${anchor}`)
+      window.location.replace(`/react-hankol/#${anchor}`)
       setIsOpen(!isOpen)
       return false
     } else {
@@ -66,8 +66,12 @@ function App() {
         toggle={toggle}
         toggleIcon={toggleIcon}
       />
-      <Route path="/" component={Home} exact></Route>
-      <Route path="/production/:id" component={ProductionsDetail} exact></Route>
+      <Route path="/react-hankol" component={Home} exact></Route>
+      <Route
+        path="/react-hankol/production/:id"
+        component={ProductionsDetail}
+        exact
+      ></Route>
       <Footer />
     </Router>
   )

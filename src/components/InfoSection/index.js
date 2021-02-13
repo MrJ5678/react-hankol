@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-31 11:43:43
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-07 11:29:05
+ * @LastEditTime: 2021-02-13 16:14:47
  * @Description: file content
  */
 import React from "react"
@@ -50,7 +50,7 @@ const InfoSection = ({
                 <SubTitle darkText={darkText}>{description}</SubTitle>
                 <BtnWrap>
                   <ButtonR
-                    to={`/production/${id}`}
+                    to={`/react-hankol/production/${id}`}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
