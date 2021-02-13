@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 16:24:30
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-07 13:50:16
+ * @LastEditTime: 2021-02-13 16:15:20
  * @Description: file content
  */
 import React from "react"
@@ -49,7 +49,7 @@ const Sidebar = ({ isOpen, toggle, toggleIcon }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap onClick={() => toggle("home")}>
-          <SidebarRoute to="/" onClick={toggleHome}>
+          <SidebarRoute to="/react-hankol" onClick={toggleHome}>
             回到首页
           </SidebarRoute>
         </SideBtnWrap>
