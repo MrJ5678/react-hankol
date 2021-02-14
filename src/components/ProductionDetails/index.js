@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-02-06 15:35:09
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-10 11:07:12
+ * @LastEditTime: 2021-02-14 12:00:57
  * @Description: file content
  */
 import React from "react"
@@ -31,10 +31,7 @@ const ProductionDetails = ({ productId }) => {
       <ProductionDetailsContainer>
         <ProductionWrapper>
           <ProductionImageWrapper>
-            <ProductionImage
-              src={currentProduction.img}
-              alt={currentProduction.id}
-            />
+            <ProductionImage alt={currentProduction.id} />
           </ProductionImageWrapper>
           <ProductionInfoWrapper>
             <ProductionInfo>
