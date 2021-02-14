@@ -2,14 +2,14 @@
  * @Author: hhhhhq
  * @Date: 2021-02-08 16:17:40
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-14 16:49:05
+ * @LastEditTime: 2021-02-14 17:06:45
  * @Description: file content
  */
 const productionsDetail = [
   {
     id: "jingdian",
     name: "酣客经典版",
-    img: "static/media/hankejingdianzuhe.png",
+    img: require("../../images/hankejingdianzuhe.png").default,
     time: "8年基酒80%, 10年基酒10%, 15年占比7.5%, 20年占比2%, 30年占比0.5%",
     vol: "500ml",
     desc: "酒体空杯留香超过 100 小时",
