@@ -2,12 +2,6 @@
  * @Author: hhhhhq
  * @Date: 2021-02-06 15:35:09
  * @LastEditors: hhhhhq
-<<<<<<< HEAD
- * @LastEditTime: 2021-02-14 15:42:37
-=======
- * @LastEditTime: 2021-02-14 12:00:57
->>>>>>> 6a1d98be74002b94bbd11d519f00e2ca875c3c67
- * @Description: file content
  */
 import React from "react"
 import Collapse from "rc-collapse"
@@ -41,6 +35,15 @@ const ProductionDetails = ({ productId }) => {
             />
           </ProductionImageWrapper>
           <ProductionInfoWrapper>
+<<<<<<< HEAD
+=======
+            <ProductionImageWrapper>
+              <ProductionImage
+                src={currentProduction.img}
+                alt={currentProduction.id}
+              />
+            </ProductionImageWrapper>
+>>>>>>> ac0c3290a01e5314c4354f226adcb6b2b70f0a8e
             <ProductionInfo>
               <ProductionH1>{currentProduction.name}</ProductionH1>
               <ProductionDescWrapper>
