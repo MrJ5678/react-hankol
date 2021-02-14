@@ -30,7 +30,7 @@ const ProductionDetails = ({ productId }) => {
         <ProductionWrapper>
           <ProductionImageWrapper>
             <ProductionImage
-              src={currentProduction.img}
+              src={process.env.PUBLIC_URL + img}
               alt={currentProduction.id}
             />
           </ProductionImageWrapper>
