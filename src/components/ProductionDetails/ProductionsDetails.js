@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-02-08 16:17:40
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-10 11:46:36
+ * @LastEditTime: 2021-02-14 11:44:50
  * @Description: file content
  */
 const productionsDetail = [
