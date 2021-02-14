@@ -35,15 +35,6 @@ const ProductionDetails = ({ productId }) => {
             />
           </ProductionImageWrapper>
           <ProductionInfoWrapper>
-<<<<<<< HEAD
-=======
-            <ProductionImageWrapper>
-              <ProductionImage
-                src={currentProduction.img}
-                alt={currentProduction.id}
-              />
-            </ProductionImageWrapper>
->>>>>>> ac0c3290a01e5314c4354f226adcb6b2b70f0a8e
             <ProductionInfo>
               <ProductionH1>{currentProduction.name}</ProductionH1>
               <ProductionDescWrapper>
