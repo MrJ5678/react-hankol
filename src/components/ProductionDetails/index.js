@@ -3,7 +3,7 @@
  * @Date: 2021-02-06 15:35:09
  * @LastEditors: hhhhhq
 <<<<<<< HEAD
- * @LastEditTime: 2021-02-14 12:16:52
+ * @LastEditTime: 2021-02-14 15:42:37
 =======
  * @LastEditTime: 2021-02-14 12:00:57
 >>>>>>> 6a1d98be74002b94bbd11d519f00e2ca875c3c67
@@ -34,10 +34,13 @@ const ProductionDetails = ({ productId }) => {
     <>
       <ProductionDetailsContainer>
         <ProductionWrapper>
+          <ProductionImageWrapper>
+            <ProductionImage
+              src={currentProduction.img}
+              alt={currentProduction.id}
+            />
+          </ProductionImageWrapper>
           <ProductionInfoWrapper>
-            <ProductionImageWrapper>
-              <ProductionImage alt={currentProduction.id} />
-            </ProductionImageWrapper>
             <ProductionInfo>
               <ProductionH1>{currentProduction.name}</ProductionH1>
               <ProductionDescWrapper>
