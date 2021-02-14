@@ -2,7 +2,11 @@
  * @Author: hhhhhq
  * @Date: 2021-02-06 15:35:09
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-14 12:10:51
+<<<<<<< HEAD
+ * @LastEditTime: 2021-02-14 12:12:31
+=======
+ * @LastEditTime: 2021-02-14 12:00:57
+>>>>>>> 6a1d98be74002b94bbd11d519f00e2ca875c3c67
  * @Description: file content
  */
 import React from "react"
