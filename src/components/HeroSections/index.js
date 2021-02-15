@@ -2,11 +2,11 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 22:02:10
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-04 11:38:26
+ * @LastEditTime: 2021-02-15 16:23:34
  * @Description: file content
  */
 import React, { useState } from "react"
-import Video from "../../videos/jianji3.mp4"
+import Video from "../../images/heroBg.png"
 import { Button } from "../ButtonElements"
 import {
   ArrowForward,
@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg src={Video} />
       </HeroBg>
       <HeroContent>
         <HeroH1>酣客酱酒 · 盲品更牛</HeroH1>

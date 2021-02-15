@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-30 22:02:47
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-01-31 12:37:26
+ * @LastEditTime: 2021-02-15 16:18:59
  * @Description: file content
  */
 import styled from "styled-components"
@@ -40,7 +40,7 @@ export const HeroBg = styled.div`
   background: #161b1d;
 `
 
-export const VideoBg = styled.video`
+export const VideoBg = styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
