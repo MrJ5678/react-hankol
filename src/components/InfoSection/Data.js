@@ -2,7 +2,7 @@
  * @Author: hhhhhq
  * @Date: 2021-01-31 11:44:28
  * @LastEditors: hhhhhq
- * @LastEditTime: 2021-02-10 08:26:20
+ * @LastEditTime: 2021-02-17 17:00:25
  * @Description: file content
  */
 
@@ -48,8 +48,7 @@ export const homeObjThree = {
   lightTextDesc: true,
   topLine: "窖藏时间 10 年",
   headline: "半月坛(500ml)",
-  description:
-    '酣客第一款酒, 故又称为 "酣一", 味道浑厚, 酒体纯熟, 口感顺滑舒爽, 优雅细腻, 尾长回甘.',
+  description: "半月器型, 国学底蕴, 以馥郁浓香口感让喝酒变成舌尖上的极致享受.",
   buttonLabel: "了解更多",
   imgStart: false,
   img: require("../../images/banyuetanzuhe.png").default,
