@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.362a7fdf.chunk.css",
-    "main.js": "./static/js/main.3f9b5627.chunk.js",
-    "main.js.map": "./static/js/main.3f9b5627.chunk.js.map",
+    "main.js": "./static/js/main.8dabb6ed.chunk.js",
+    "main.js.map": "./static/js/main.8dabb6ed.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.365c3e8d.js",
     "runtime-main.js.map": "./static/js/runtime-main.365c3e8d.js.map",
     "static/css/2.d3d62147.chunk.css": "./static/css/2.d3d62147.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/2.4942dca9.chunk.js.LICENSE.txt": "./static/js/2.4942dca9.chunk.js.LICENSE.txt",
     "static/media/banyuetanzuhe.png": "./static/media/banyuetanzuhe.f01a36ce.png",
     "static/media/bg-vineyard-2.64a70d3b.jpg": "./static/media/bg-vineyard-2.64a70d3b.jpg",
-    "static/media/biaozhunban.png": "./static/media/biaozhunban.b884c50c.png",
+    "static/media/biaozhunban.png": "./static/media/biaozhunban.9a4e274f.png",
     "static/media/hankejingdianzuhe.png": "./static/media/hankejingdianzuhe.527a2b71.png",
     "static/media/jiacang.png": "./static/media/jiacang.cc3d0452.png",
     "static/media/jianji3.897c2ed0.mp4": "./static/media/jianji3.897c2ed0.mp4",
@@ -25,6 +25,6 @@
     "static/css/2.d3d62147.chunk.css",
     "static/js/2.4942dca9.chunk.js",
     "static/css/main.362a7fdf.chunk.css",
-    "static/js/main.3f9b5627.chunk.js"
+    "static/js/main.8dabb6ed.chunk.js"
   ]
 }
