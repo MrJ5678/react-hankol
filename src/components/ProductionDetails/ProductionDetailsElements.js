@@ -41,6 +41,7 @@ export const ProductionImageWrapper = styled.div`
 
 export const ProductionImage = styled.img`
   width: 90%;
+  max-height: 259px;
 `
 
 export const ProductionInfoWrapper = styled.div`
